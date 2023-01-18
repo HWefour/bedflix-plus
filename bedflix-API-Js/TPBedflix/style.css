@@ -1,0 +1,158 @@
+
+.search{
+    margin-right: 70px;
+}
+.navbar-brand{
+    width: fit-content;
+}
+#pfp{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+#bell{
+    height: 35px;
+    width: 35px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#recherche{
+    background-color: black;
+    border: solid black 1px;
+    color: white;
+}
+.searchBar{
+    height: 50px;
+    width: 350px;
+    background-color: black;
+    border: 3px solid white;
+}
+#loupe {
+    padding: 10px;
+}
+.accueil-wallpaper{
+    background: url("./therock.png") no-repeat;
+    height: 100vh;
+    background-size: 100%;
+}
+.txtPage{
+    padding-top: 160px;
+    padding-left: 160px;
+    padding-right: 160px;
+    margin-bottom: 75px;
+}
+#jumanji{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+h2{
+    color: white;
+    margin-top: 30px;
+}
+p {
+    width: 588px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 30px;
+}
+h1 {
+    width: 324px;
+    height: 18px;
+    left: 107px;
+    top: 758px;
+    margin-left: 50px;
+    margin-top: 30px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 18px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.wrapper section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    margin: 20px 0;
+}
+
+.wrapper section .item {
+    padding: 0 2px;
+    transition: 250ms all;
+}
+.wrapper section .item:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+}
+.wrapper section a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background: #000;
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+.wrapper section a:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.wrapper section a:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.all-slides{
+    background: url(./carrousels\ background.png) no-repeat;
+    height: 577px;
+    background-size: 250%;
+}
+
+ footer{
+    position: relative;
+    margin-top: 90px;
+    margin-left: -545px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 30px;
+} 
+#footer{
+    width: 300px;
+}
+#imgfilm {
+    margin-top: 300px;
+}

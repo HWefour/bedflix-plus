@@ -1,0 +1,143 @@
+.films-wallpaper{
+    background: url("./Rectangle\ 4\ \(2\).png") no-repeat;
+    height: 100vh;
+    background-size: 100%;
+}
+.search{
+    margin-right: 70px;
+}
+.navbar-brand{
+    width: fit-content;
+}
+#pfp{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+#bell{
+    height: 35px;
+    width: 35px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.searchBar{
+    height: 50px;
+    width: 250px;
+    background-color: black;
+    border: 3px solid white;
+}
+#loupe {
+    padding: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.wrapper section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    margin: 20px 0;
+}
+
+.wrapper section .item {
+    padding: 0 2px;
+    transition: 250ms all;
+}
+.wrapper section .item:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+}
+.wrapper section a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background: #000;
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+.wrapper section a:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.wrapper section a:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+.all-slides{
+    background: url(./carrousels\ background.png) no-repeat;
+    height: 580px;
+    background-size: 263%;
+}
+.menuGenre{
+    padding: 200px;
+    margin-bottom: 400px;
+    margin-top: 40px;
+}
+h1{
+    color: white;
+    margin-top: 30px;
+}
+.tabGenre{
+    width: 300px;
+    height: 120px;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    padding: 5px;
+    display: none;
+    position: absolute;
+    top: 190px;
+    left: 250px;
+    font-size: 10px;
+}
+#btn {
+    position: absolute;
+    top: 155px;
+    left: 250px;
+    
+}
+ #btn:focus ~ .tabGenre {
+    display: block;
+ }
+ .btn:first-child:active, .btn:hover {
+    background-color: transparent;
+ }
+ #imgFilm{
+    position: absolute;
+    top: 155px;
+    left: 110px;
+    
+ }
+ footer{
+    position: relative;
+    margin-top: 450px;
+    margin-left: -545px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 30px;
+} 
+#footer{
+    width: 300px;
+}
